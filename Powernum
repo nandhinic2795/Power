@@ -7,13 +7,12 @@ int main()
 
    printf("INPUT\n"); 
     scanf("%d", &base);
-
-    printf(" ");
+   printf("%d",base);
     scanf("%d", &exp);
-
+printf(" %d\n",exp);
     while (exp != 0)
     {
-        result *= base;
+        res *= base;
         --exp;
     }
 printf("OUTPUT\n");
