@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    int base, exp;
+
+    long long res = 1;
+
+   printf("INPUT\n"); 
+    scanf("%d", &base);
+
+    printf(" ");
+    scanf("%d", &exp);
+
+    while (exp != 0)
+    {
+        result *= base;
+        --exp;
+    }
+printf("OUTPUT\n");
+    printf("%lld", res);
+
+    return 0;
+}
